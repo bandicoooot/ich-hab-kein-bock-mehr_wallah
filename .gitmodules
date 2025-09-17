@@ -1,0 +1,3 @@
+[submodule "carpro-frontend"]
+	path = carpro-frontend
+	url = https://github.com/bandicoooot/ich-hab-kein-bock-mehr_wallah-frontend.git

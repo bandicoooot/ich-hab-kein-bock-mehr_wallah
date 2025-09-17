@@ -1,0 +1,156 @@
+# -----------------------
+# General / Node / Angular
+# -----------------------
+# Node modules
+/node_modules/
+# Angular build / output
+/dist/
+/out-tsc/
+/coverage/
+/.angular/
+/.angular-cache/
+/tmp/
+/src/**/*.ngfactory.ts
+/src/**/*.ngsummary.json
+# Angular environment secrets (if you keep env files in repo root or src)
+src/environments/environment*.ts
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------
+# macOS / MacBook
+# -----------------------
+# Icon files, Finder metadata, resource forks
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+# macOS extended attributes
+*.DS_Store?
+# Files that might appear on macOS network shares
+.Spotlight-V100
+.fseventsd
+
+# -----------------------
+# VS Code
+# -----------------------
+.vscode/*
+# keep extensions recommendation file if you want to share it:
+!/.vscode/extensions.json
+# workspace storage and history
+.vscode/*.code-workspace
+.history/
+# If you want to ignore settings but keep launch.json or extensions.json, adapt above
+
+# -----------------------
+# C# / .NET
+# -----------------------
+# Build Folders
+bin/
+obj/
+# VS / Rider / .NET temp files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+_ReSharper*/
+*.DotSettings.user
+# Rider
+.idea/
+*.sln.iml
+# Publish directory
+publish/
+# NuGet
+*.nupkg
+# Package caches
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code C# storage
+.vscode/*.suo
+.vscode/*.user
+
+# -----------------------
+# Databases / Local DB files
+# -----------------------
+# SQLite / local DBs
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+# SQL Server MDF / LDF
+*.mdf
+*.ldf
+# DB dumps/backups
+*.sql
+*.bak
+*.dump
+# Local DB folders
+/.data/
+/data/
+
+# -----------------------
+# Environment / Secrets
+# -----------------------
+# dotenv files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# secret config files
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# -----------------------
+# Testing / Coverage / CI
+# -----------------------
+/coverage/
+/test-results/
+/reports/
+/cypress/screenshots/
+/cypress/videos/
+/.nyc_output/
+
+# -----------------------
+# Editors / OS / Misc
+# -----------------------
+# JetBrains IDEs
+.idea/
+*.iml
+# Sublime
+*.sublime-workspace
+# Windows thumbnail/cache
+Thumbs.db
+ehthumbs.db
+# Backup files
+*~ 
+*.swp
+*.bak
+*.tmp
+
+# -----------------------
+# Optional: Generated docs, local build tools
+# -----------------------
+/docs/
+/doc/
+/dist-e2e/
+/reports/
+
+# -----------------------
+# End of file
+# -----------------------
+
